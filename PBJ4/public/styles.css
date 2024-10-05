@@ -1,0 +1,56 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Warna latar belakang lembut */
+}
+
+.header, .footer {
+    background-color: #4682b4; /* Warna biru tua */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto; /* Pusatkan konten */
+}
+
+.column {
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Jarak antar tautan */
+    margin-top: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #4682b4;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #ff6347; /* Warna saat hover */
+}
+
+.about-section, .help-section {
+    background-color: white; /* Warna latar belakang putih untuk konten */
+    padding: 20px;
+    border-radius: 10px; /* Sudut membulat */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+.portrait {
+    display: block;
+    max-width: 150px; /* Ukuran gambar */
+    margin: 10px auto; /* Pusatkan gambar */
+    border-radius: 50%; /* Buat gambar bulat */
+}

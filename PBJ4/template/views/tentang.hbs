@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Saya</title>
+    <link rel="icon" href="/views/cuaca.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/app.js"></script>
+</head>
+<body>
+    {{> header}} <!-- Memanggil header -->
+
+    <div class="main-content">
+        <div class="about-section">
+            <h1>Tentang Saya</h1>
+            <img src="/views/foto-saya.jpg" alt="Foto Saya" class="portrait"> <!-- Ganti dengan path gambar Anda -->
+            <p>Aplikasi ini dikembangkan untuk memudahkan pengguna dalam mengecek cuaca. Dengan informasi yang akurat dan antarmuka yang sederhana, pengguna dapat dengan mudah mendapatkan data cuaca terkini.</p>
+            <h2>Nama Pengembang</h2>
+            <p>Gies Septiara</p>
+        </div>
+    </div>
+
+    {{> footer}} <!-- Memanggil footer -->
+</body>
+</html>
