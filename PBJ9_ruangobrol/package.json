@@ -1,0 +1,31 @@
+{
+  "name": "pbj9_ruangobrol",
+  "version": "1.0.0",
+  "description": "A chat application using Express and Socket.io",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "moment": "^2.30.1",
+    "mustache": "^4.2.0",
+    "qs": "^6.13.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
